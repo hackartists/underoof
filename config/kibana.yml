@@ -108,3 +108,18 @@ xpack:
     elasticsearch:
       username: elastic
       password: changme
+
+ems:
+  index_pattern:
+    device:
+      index: "test-ems-dev"
+      type: "device"
+    device_type:
+      index: "test-ems-dt"
+      type: "device_type"
+    space:
+      index: "test-ems-space"
+      type: "space"
+    data:
+      index: "test-ems-data"
+      type: "data"
